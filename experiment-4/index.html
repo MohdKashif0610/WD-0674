@@ -34,12 +34,20 @@
 
         <!--Room Type-->
         <label for="roomtype">Room Type:</label>
-        <input type="radio" id="single" name="roomtype" value="single room" required>
-        <br></br>
+        <select id="roomtype" name="roomtype" required>
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+        </select>
+        <br><br>
 
         <!--Number Guest-->
         <label for="guests">Number of Guests:</label>
         <input type="number" id="guests" name="guests" min="1" max="10" required>
+        <br><br>
+
+        <!--special Request-->
+        <label for="specialrequest">Special Request:</label>
+        <textarea align="center" id="specialrequest" name="specialrequest" rows="4" cols="50"></textarea>
         <br><br>
 
 
