@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hyperlinks and Images</title>
+</head>
+<body>
+
+    <h2>Links Demo</h2>
+
+    <!-- External Link -->
+    <a href="https://www.example.com" target="_blank">
+        Visit Example Website
+    </a>
+    <br><br>
+
+    <!-- Internal Link -->
+    <a href="#bottom">Jump to Bottom</a>
+    <br><br>
+
+    <!-- Email Link -->
+    <a href="mailto:info@example.com">Send Email</a>
+    <br><br>
+
+    <!-- Image Link -->
+    <a href="https://www.example.com" target="_blank">
+        <img src="https://dummyimage.com/80x50/eeeeee/333333.png&text=Logo"
+             alt="Example Website Logo"
+             width="80"
+             height="50">
+    </a>
+
+    <div style="height: 400px;"></div>
+
+    <p id="bottom">You have reached the bottom.</p>
+
+    <a href="#top">Back to Top</a>
+
+</body>
+</html>

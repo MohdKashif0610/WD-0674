@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Experiment-4</title>
+</head>
+<body>
+    <h1 align="center">Hotel Room Booking Form</h1>
+    <form action="#" method="post" align="center">
+        <div style="border: 2px solid black; padding: 20px; width: 550px; margin: 0 auto;">
+        <!--Name-->
+        <label for=" full name">Full Name:</label>
+        <input type="text" id="full name" name="full name" required>
+        <br><br>
+
+        <!--Email-->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!--Phone Number-->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" maxlength="10" required>
+        <br><br>
+
+        <!--Check-in Date-->
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" id="checkin" name="checkin" required>
+        <br><br>
+
+        <!--Check-out Date-->
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" id="checkout" name="checkout" required>
+        <br><br>
+
+        <!--Room Type-->
+        <label for="roomtype">Room Type:</label>
+        <select id="roomtype" name="roomtype" required>
+            <option value="single">Single</option>
+            <option value="double">Double</option>            
+            <option value="Deluxe">Deluxe</option>            
+            <option value="suite">Suite</option>
+        </select>
+        <br><br>
+
+        <!--Number Guest-->
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" max="10" required>
+        <br><br>
+        
+        <label for="request" align="center">Special Request:</label><br>
+        <textarea id="request" name="request" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <!--Submit and Reset Button--> 
+        <button type="Submit">Book now</button>
+        <br><br>
+        <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
